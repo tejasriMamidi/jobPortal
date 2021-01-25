@@ -1,0 +1,246 @@
+*,body{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+}
+body{
+  background-color:white;
+}
+.navbar{
+
+    background-color:black;
+     font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+   font-family: 'Gorditas', cursive;
+}
+
+.navbar-brand {
+    color: white;
+    
+  }
+.menu-bar .navbar-toggler {
+padding: 0;
+outline: none;
+border: none;
+}
+
+ .nav-link{
+color: white !important;
+ text-align: center;
+     font-size: 16px;
+}
+ .nav-link:hover{
+    color:#7a2e2d !important ;
+
+}
+
+.navbar-toggler{
+ color:#7a2e2d;
+ background-color: aliceblue;
+}
+
+
+button{
+    color: sandybrown;
+}
+
+.navbar img{
+    height: 100%;
+       transform:rotateZ(20deg);
+    animation: anime 4s ease-in  infinite alternate;
+    transition: 4s ease-in-out;
+
+}
+.jumbotron3{
+ height: 80vh;
+ max-width: 100vw;
+padding-top:20%;
+padding-left: 15%;
+background-image: url("https://images.unsplash.com/photo-1483808161634-29aa1b0e585e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODh8fHBlb3BsZSUyMGF0JTIwd29ya3xlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60");
+background-attachment: fixed;
+background-image: url("https://images.unsplash.com/photo-1543269664-7eef42226a21?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+background-position: 1% 30% ;
+background-repeat: no-repeat;
+   
+font-weight: 700;
+font-family: 'Dancing Script', cursive;
+font-family: 'Gorditas', cursive;
+
+
+    /* box-shadow: 3px 3px 9px 6px rgba(0, 0, 0, 0.5); */
+}
+.jumbotron3 h3{
+    text-align: left;
+
+    color: white;
+    max-width:50%;
+    font-size: 40px;
+    font-weight: 700;
+   
+}
+
+.jumbotron3 .form-control{
+ max-width: 40%;
+border-radius: 0;
+box-shadow: none !important;
+border: none;
+}
+
+.jumbotron3 button{
+    background-color:#883634 ;
+    color: thistle;
+  border: none;
+  margin-top: 10px;
+box-shadow: none !important;
+
+ outline-width: 0;
+
+
+}
+
+
+.recent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f5f5f5;
+   min-height: 90vh;
+    width: 100vw;
+
+
+}
+.recent .head{
+    margin: 10px;
+     font-weight: 700;
+ font-family: 'Dancing Script', cursive;
+font-family: 'Gorditas', cursive;
+color:#7a2e2d ;
+}
+.company{
+    display: flex;
+       flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    justify-items: flex-start;
+}
+ .cnames{
+       display: flex;
+       margin: 4px;
+       padding: 10px;
+       padding-bottom: 30px;
+       height:200px;
+       width: 600px;
+       border-radius: 2px;
+background-color:white;
+}
+.cnames .subtitle{
+    color:silver;
+ flex:0.7;
+ padding-left:10% ;
+ text-align:start;
+
+
+}
+.subtitle h4{
+    color: rgb(0, 0, 0);
+      font-weight: 700;
+  
+}
+.subtitle p ,.subtitle span{
+    color: black;
+} 
+.subtitle h5{
+    font-weight: 200;
+     font-family: 'Dancing Script', cursive;
+font-family: 'Gorditas', cursive;
+color:#7a2e2d ;
+
+}
+.subtitle .fa{
+    font-size: 20px;
+    color:#7a2e2d ;
+    margin: 2px;
+}
+.subtitle .badge{
+    background-color: #7a2e2d;
+    color: white;
+}
+.cnames .img{
+ flex:0.3;
+ display: flex;
+
+ flex-direction: column;
+
+
+}
+.img img{
+    height: 100px;
+    border:10px soild rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+margin: auto;
+}
+
+
+
+
+.footer{
+background-color: black;
+height:30vh;
+width:100vw;
+padding: 5% 5%;
+z-index: 1000;
+    
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer ul li{
+ list-style: none;
+font-weight: 700;
+padding-left: 5%;
+font-family: 'Dancing Script', cursive;
+font-family: 'Gorditas', cursive;
+
+}
+.fa {
+font-size: 300%;
+color: white;
+}
+.fa:hover{
+    color: #7a2e2d;
+}
+.footer .title{
+    color:#7a2e2d;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Gorditas', cursive;
+
+}
+.footer img{
+    animation: anime 4s ease-in-out 4s infinite ;
+    transition: 4s ease-in-out;
+
+    
+}
+@keyframes anime{
+    0%{
+        tranform:rotateX(20deg)
+    }
+   
+    50%{
+    transform:rotateZ(-30deg)
+
+    }
+    100%{
+        tranform:rotateX(30deg)
+
+    }
+  
+ 
+}
